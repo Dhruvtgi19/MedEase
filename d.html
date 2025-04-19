@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedEase - About Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .member {
+            flex: 1 1 300px;
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .member a {
+            text-decoration: none;
+        }
+
+        .member img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s;
+        }
+
+        .member img:hover {
+            transform: scale(1.05);
+        }
+
+        .member h3 {
+            margin: 10px 0 5px;
+            font-size: 22px;
+        }
+
+        .member p {
+            font-size: 16px;
+        }
+
+        .emergency {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .call-button {
+            background-color: #ff4c4c;
+            color: white;
+            padding: 18px 35px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        .call-button:hover {
+            background-color: #e60000;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                font-size: 24px;
+            }
+
+            .member img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .member {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    MedEase – We Treat You Like Family
+</header>
+
+<div class="container">
+    <h2>About Us</h2>
+    <p>
+        MedEase was created by three passionate tech enthusiasts with a shared mission to make healthcare tools accessible and user-friendly:
+    </p>
+
+    <div class="team">
+        <div class="member">
+            <a href="dhruv.html">
+                <img src="dhr.jpg" alt="Dhruv Tyagi">
+            </a>
+            <h3>Dhruv Tyagi</h3>
+            <p>Lead Developer and Android Expert. The architect behind the app’s core functionality.</p>
+        </div>
+
+        <div class="member">
+            <a href="priyanshu.html">
+                <img src="priyansh.jpg" alt="Priyanshu">
+            </a>
+            <h3>Priyanshu</h3>
+            <p>UI/UX Designer and Firebase Specialist. Responsible for intuitive design and backend integration.</p>
+        </div>
+
+        <div class="member">
+            <a href="aditya.html">
+                <img src="adi.jpg" alt="Aditiya Jain">
+            </a>
+            <h3>Aditiya Jain</h3>
+            <p>Project Coordinator and Content Curator. Keeps the project on track and ensures quality content.</p>
+        </div>
+    </div>
+
+    <div class="emergency">
+        <h2>Need Help Now?</h2>
+        <a href="tel:102" class="call-button">Emergency Call: 102</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 MedEase. All rights reserved.
+</footer>
+
+</body>
+</html>
